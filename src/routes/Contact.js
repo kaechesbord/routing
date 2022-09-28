@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 import "../App.css"
-export default function Root() {
+
+export default function Contact() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,11 +42,11 @@ export default function Root() {
           </ul>
         </div>
       </nav>
-    <div className="textdiv">
+      <div className="textdiv">
       <div className="text">
-        <h1>This Is Homepage</h1>
+        <h1>This Is Contactpage</h1>
       </div>
-    </div>
+      </div>
     </>
   );
 }
